@@ -1,0 +1,28 @@
+rethickcb@RETHICKs-MacBook-Air Palindrome_Checker_App % GIT STATUS
+fatal: cannot handle STATUS as a builtin
+rethickcb@RETHICKs-MacBook-Air Palindrome_Checker_App % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   src/Palindrome_Checker_App.java
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/Palindrome_Checker_App.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        .idea/
+
+rethickcb@RETHICKs-MacBook-Air Palindrome_Checker_App % git status branch main
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+rethickcb@RETHICKs-MacBook-Air Palindrome_Checker_App % git checkout -b feature/UC1
+Switched to a new branch 'feature/UC1'
+rethickcb@RETHICKs-MacBook-Air Palindrome_Checker_App %
