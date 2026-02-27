@@ -25,4 +25,56 @@ Your branch is up to date with 'origin/main'.
 nothing to commit, working tree clean
 rethickcb@RETHICKs-MacBook-Air Palindrome_Checker_App % git checkout -b feature/UC1
 Switched to a new branch 'feature/UC1'
+rethickcb@RETHICKs-MacBook-Air Palindrome_Checker_App % git branch
+* feature/UC1
+  main
+rethickcb@RETHICKs-MacBook-Air Palindrome_Checker_App % git add .
+rethickcb@RETHICKs-MacBook-Air Palindrome_Checker_App % git status
+On branch feature/UC1
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .gitignore
+        new file:   .idea/.gitignore
+        new file:   .idea/misc.xml
+        new file:   .idea/modules.xml
+        new file:   .idea/vcs.xml
+        new file:   Palindrome_Checker_App.iml
+        new file:   src/Palindrome_Checker_App.java
+        new file:   src/a.txt
+
+rethickcb@RETHICKs-MacBook-Air Palindrome_Checker_App % git commit -m "UC1 rcb"
+[feature/UC1 7b0a160] UC1 rcb
+ 8 files changed, 93 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 .idea/.gitignore
+ create mode 100644 .idea/misc.xml
+ create mode 100644 .idea/modules.xml
+ create mode 100644 .idea/vcs.xml
+ create mode 100644 Palindrome_Checker_App.iml
+ create mode 100644 src/Palindrome_Checker_App.java
+ create mode 100644 src/a.txt
+rethickcb@RETHICKs-MacBook-Air Palindrome_Checker_App % git remote add orgin https://github.com/cbrethick/Palindrome_Checker_App.git
+rethickcb@RETHICKs-MacBook-Air Palindrome_Checker_App % git remote add origin https://github.com/cbrethick/Palindrome_Checker_App.git
+error: remote origin already exists.
+rethickcb@RETHICKs-MacBook-Air Palindrome_Checker_App % git remote add origins https://github.com/cbrethick/Palindrome_Checker_App.git
+rethickcb@RETHICKs-MacBook-Air Palindrome_Checker_App % git remote -v
+orgin   https://github.com/cbrethick/Palindrome_Checker_App.git (fetch)
+orgin   https://github.com/cbrethick/Palindrome_Checker_App.git (push)
+origin  https://github.com/cbrethick/Palindrome_Checker_App (fetch)
+origin  https://github.com/cbrethick/Palindrome_Checker_App (push)
+origins https://github.com/cbrethick/Palindrome_Checker_App.git (fetch)
+origins https://github.com/cbrethick/Palindrome_Checker_App.git (push)
+rethickcb@RETHICKs-MacBook-Air Palindrome_Checker_App % git push origin feature/UC1
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (12/12), 2.05 KiB | 1.03 MiB/s, done.
+Total 12 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'feature/UC1' on GitHub by visiting:
+remote:      https://github.com/cbrethick/Palindrome_Checker_App/pull/new/feature/UC1
+remote:
+To https://github.com/cbrethick/Palindrome_Checker_App
+ * [new branch]      feature/UC1 -> feature/UC1
 rethickcb@RETHICKs-MacBook-Air Palindrome_Checker_App %
